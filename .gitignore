@@ -7,9 +7,6 @@ bin/
 
 tmp
 
-# Go module files
-go.sum
-go.mod
 
 # Compiled files
 *.o
