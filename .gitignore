@@ -1,0 +1,57 @@
+# Go-related files
+bin/
+*.exe
+*.out
+*.test
+*.swp
+
+tmp
+
+# Go module files
+go.sum
+go.mod
+
+# Compiled files
+*.o
+*.a
+*.so
+
+# Dependency directories
+vendor/
+node_modules/
+
+# Logs and debug files
+*.log
+*.gz
+*.zip
+*.tar
+*.bak
+*.old
+
+# Temporary files and IDE-specific settings
+*.tmp
+*.temp
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# Swagger docs (auto-generated, should not be committed)
+docs/swagger.json
+docs/swagger.yaml
+
+# SQLite database (if used)
+*.db
+*.sqlite
+*.sqlite3
+
+# Env files
+.env
+.env.local
+.env.production
+.env.test
+
+# Test coverage and profiling
+cover.out
+coverage/
+*.prof
